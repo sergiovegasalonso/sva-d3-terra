@@ -24,5 +24,6 @@ const drawGlobe = () => {
         .attr("d", path)
         .style("fill", "#ffffff")
         .style("stroke", "#000000")
+        .attr("class", "country")
 
 };
